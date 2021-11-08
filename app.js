@@ -6,8 +6,7 @@
 // var array = [];
 
 // Q2
-// var arrayA = []
-// var arrayB = new Array()
+// var array = new Array()
 
 // Q3
 // var cars = ["corrola","honda","mira","aulto","cultus"]
@@ -18,7 +17,7 @@
 // console.log(nums)
 
 // Q5
-// var bol = [true,false,true,false]
+// var bol = [true,false]
 // console.log(bol)
 
 // Q6
@@ -29,7 +28,7 @@
 // var education = ["SSC", "HSC", "BCS" , "BS" , "BCOM" , "MS" , "M. Phil."  ,"PhD"]
 // document.write("<h2> Qualification </h2> <br>")
 // for(var i = 0; i < education.length; i++){
-//     document.write([i] + " " + education[i] + "<br>")
+//     document.write(i+1 + " " + education[i] + "<br>")
 // }
 
 
@@ -117,29 +116,23 @@
 // document.write("<br> <b> String: </b> <br>" + newAnimal)
 
 // Q13
-// var arr = [];
-// var user1 = prompt("Enter")
-// var user2 = prompt("Enter")
-// var user3 = prompt("Enter")
-// var user4 = prompt("Enter")
+// var arr = ["Keyboard","Mouse","Printer","Monitor"]
+// document.write("<h2> Device: </h2>" + arr  + "<br>")
 
-// arr.push(user1,user2,user3,user4)
+// for(var i = 0 ; i < arr.length; i++){
+//     document.write("<br> Out: <br>" + arr[i])
+// }
 
-// document.write("<b> Devices: </b> <br>" + arr + "<br>")
-// document.write("<br> Out: <br>" + user1 + "<br> Out: <br>" + user2)
-// document.write("<br> Out: <br>" + user3 + "<br> Out: <br>" + user4)
 
 // Q14
-// var arr = [];
-// var user1 = prompt("Enter")
-// var user2 = prompt("Enter")
-// var user3 = prompt("Enter")
-// var user4 = prompt("Enter")
+// var arr = ["Keyboard","Mouse","Printer","Monitor"]
+// document.write("<h2> Device: </h2>" + arr  + "<br>")
 
-// arr.push(user1,user2,user3,user4)
-// document.write("<b> Devices: </b> <br>" + arr + "<br>")
-// document.write("<br> Out: <br>" + user4 + "<br> Out: <br>" + user3)
-// document.write("<br> Out: <br>" + user2 + "<br> Out: <br>" + user1)
+// arr = arr.reverse();
+// for(var i = 0 ; i < arr.length; i++){
+//     document.write("<br> Out: <br>" + arr[i])
+// }
+
 
 // Q15
 // var companies = ["Apple","Samsung","Motrola","Nokia","Sony","Haier"]
@@ -216,7 +209,7 @@
 
 
 // Q7 
-// var flag = true;
+// var flag = false;
 // var userInput = prompt("Welcome to Rajpoot Bakery. What do you Want to order sir/ma'am?")
 // var bakery = ["cake", "apple pie", "cookie", "chips", "patties"]
 // userInput = userInput.toLowerCase();
@@ -224,10 +217,10 @@
 // for(var i = 0; i < bakery.length; i++){
 //    if(bakery[i] === userInput){
 //     alert(userInput + " is Available at index "+ [i] + " in Our Bakery")
-//       flag = false;
+//       flag = true;
 //    }
 // }
-// if(flag == true){
+// if(flag == false){
 //    alert("We are Sorry . " + userInput + " is Not Available in Our Bakery")
 // }
 
